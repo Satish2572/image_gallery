@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery Popup</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="product-gallery">
+        <img src="https://ito.awf.temporary.site/uploads/categories/1/thumb/1022966784667eac00ba3431719577600.webp" alt="Image 1" class="product-gallery-item">
+        <img src="https://ito.awf.temporary.site/uploads/categories/2/thumb/484459787667eb0861a5811719578758.webp" alt="Image 2" class="product-gallery-item">
+        <img src="https://ito.awf.temporary.site/uploads/categories/3/thumb/1412790176667eb107613381719578887.webp" alt="Image 3" class="product-gallery-item">
+        <!-- Add more images as needed -->
+    </div>
+
+    <div id="product-images-popup" class="product-images-popup">
+        <span class="product-gallery-close">&times;</span>
+        <img class="product-gallery-popup-content" id="product-gallery-popup-img">
+        <div class="product-gallery-navigation">
+            <span class="product-gallery-prev">&#10094;</span>
+            <span class="product-gallery-next">&#10095;</span>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
